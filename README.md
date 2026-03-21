@@ -1,4 +1,4 @@
-# IoT MQTT Data Pipeline
+# IoT MQTTS Data Pipeline
 
 <p>A complete end-to-end IoT data pipeline built with Python. This project simulates a real-world IoT environment where a mock sensor device generates data, transmits it via the MQTT protocol using the Paho-MQTT library, and visualizes it on a live dashboard </strong>.</p>
 
@@ -12,6 +12,9 @@ Acts as the central message hub, routing messages between publishers and subscri
 
 ### Subscriber (`dashboard.py`)
 Ingests live data streams from the broker and renders the data in a real-time visualization dashboard.
+
+### Certificate Generator (`generate_certs.py`)
+Generates X509 Certifcate to authenticate a party’s identity in a SSL/TLS connection.
 
 ---
 
