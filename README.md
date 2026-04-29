@@ -1,4 +1,4 @@
-# IoT MQTTS Data Pipeline
+# IoT MQTT Data Pipeline
 
 <p>A complete end-to-end IoT data pipeline built with Python. This project simulates a real-world IoT environment where a mock sensor device generates data, transmits it via the MQTT protocol using the Paho-MQTT library, and visualizes it on a live dashboard </strong>.</p>
 
